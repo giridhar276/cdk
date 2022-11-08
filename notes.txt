@@ -1,0 +1,233 @@
+*** Everything in python is Object ***
+*** Every object contains methods ****
+
+
+number
+--------
+number can be integer or decimal or octal or hexa.
+
+a = 10
+aval = 34.3
+
+string
+-------
+string is defined in single or double or triple quotes.
+
+aname = 'python programming'
+bname = "unix shell scripting"
+cname = """scala programming"""
+print(cname)
+
+
+list ( array in C)
+------
+list contains set of elements.
+Elements can be numbers or strings or any combination.
+list elements are defined in [].
+
+alist = [10,20,30,40]
+blist = ["unix","java","spark"]
+clist = [10,34.3,"java","unix"]
+print(alist)
+print(blist,clist)
+
+
+
+tuple ( read only , immutable , unchangeable )
+-------
+tuple contains set of elements.
+Elements can be numbers or strings or any combination.
+tuple elements are defined in ().
+****** Elements inside tuple CANNOT be modified directly *******
+
+atup = (10,20,30,40,23,4)
+btup = ("java","unix","oracle")
+ctup = (10,4.34,"java")
+
+
+dictionary ( json , hash )
+------------------------
+dictionary contains elements in the form of keys and values.
+dictionary elements are defined in {}.
+In dictionary.. key can be number or string used to identify the value
+              value can be number or string or list or tuple or dictionary
+                           or any other complex structure.
+
+syntax:   object = { key:value , key:value , key:value }
+example:    book = {"chap1":10 ,"chap2":20 ,"chap3":30}
+            data = {1:2,3:4,5:6}
+            data = {1:"Unix",3:"Java"}
+        bookinfo = {"chap1":[10,"Rita","UK"] ,"chap2":[20,"Ram","US"]} 
+
+
+
+set
+-----
+set is UNORDERED collection of UNIQUE elements of SAME type.
+set elements are defined in {}.
+
+
+aset = {10,10,20,30,30}
+bset = {30,30,30,30,40,50}
+
+
+comments in python
+--------------------
+
+single line comment
+# this is the single line comment
+
+
+multi line comment
+--------------------
+'''
+all these 
+lines
+are commented
+'''
+
+
+employees = [('Ram','1-1-90','M'),('Rao','2-2-'98','M')]
+
+
+employees = [['Ram','1-1-90','M'],['Rao','2-2-'98','M']]
+
+
+There are 2 types of functions
+- builtin functions
+- user defined functions
+
+
+- builtin functions    (    dir(__builtin__)   ---> builtin functions  
+------------------------
+print()
+len()
+range()
+input()
+type()
+isinstance()
+id()
+round()
+chr()
+ord()
+
+int()
+float()
+str()
+list()
+tuple()
+dict()
+set()
+oct()
+hex()
+
+operators
+-------------
+
+
+arithmetic operators :  
+------------------------
++ - % / *
+
+
+assignment operators ( ++ and -- are NOT allowed in python )
+--------------------
+
+val = 10
+val = val + 1   or   val+=1       val++( not allowed)
+val = val -1    or   val-=1       val-- ( not allowed)
+
+
+relational operators
+------------------------
+<    <=    >    >=   
+
+== ( equal to)
+!=(not equal to)
+
+
+if  val != 10 :
+    print("do something")
+
+if val == 10:
+     print("do something")
+
+logical operators
+-------------------
+and
+or
+not
+
+name = "python"
+if name.islower() and len(name) == 6:
+     print("True")
+
+
+if not name.lower():
+     print("string is upper")
+
+special operators
+-------------------
+
++ : concatenation 
+* : repetition 
+in:
+as
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
