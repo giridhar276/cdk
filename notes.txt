@@ -203,11 +203,135 @@ as
 
 
 
+file handling
+---------------
+
+
+working with flat files ( csv  txt conf log dat  .prop  )
+-----------------------
+
+opening the file
+----------------
+syntax:    object = open(filename,mode)
+example:      fr= open("languages.txt","r")  -----> read operation
+              case1: If the file is existing ... file gets opened in read mode
+              case2: If the file is not existing...
+
+
+              fw= open("languages.txt","w")  -----> write operation
+              case1: if the file is not existing.. file gets created first
+              case1: if the file is existing...data gets erased first and 
+                                                it writes the data.
+
+
+              fa= open("languages.txt","a")  -----> append operation
+
+
+
+closing the file
+---------------
+fr.close()
+
+
+different ways of reading the file
+----------------------------------
+
+- reading line by line using file object
+- fobj.read()
+- fobj.readlines()
+- using csv library
+- using pandas library
 
 
 
 
 
+
+
+
+
+
+
+
+
+exception handling
+----------------------
+There are 2 types of errors.
+
+-syntax error
+-semantic error or runtime error or logical error
+
+Handling the exceptions in runtime is known as exception handling.
+
+try
+except
+else
+finally
+
+
+
+
+
+
+
+
+
+
+
+
+
+working with third party files ( xlsx docx pptx pdf mp3 mp4 ,zip,rar )
+
+
+
+
+
+
+
+
+libraries
+----------
+
+
+builtin libraries
+-------------------
+builtin libraries which are generally used(math operations, sytem operations,string operations , email operations .....) comes along with python
+
+
+third party libraries
+--------------------
+Depending on the requirement( cloud automation, network automations, ML, data analytics ....) developer has to instal third party library from
+
+- downloading manually from www.pypi.org  and installing it
+- automation installation using pip tool
+
+mysql steps
+--------------
+
+check all existing databases
+------------------------------
+show databases;
+
+create your database
+--------------------
+create database cdkglobal;
+
+access your database
+---------------------
+use cdkglobal;
+
+creating table
+--------------
+create table realestate( street varchar(100) , city varchar(100) );
+
+inserting records
+-----------------
+insert into realestate values('Kondapur','Hyderabad');
+insert into realestate values('HitechCity','Hyderabad');
+
+displaying all the records
+---------------------
+select * from realestate;
 
 
 
